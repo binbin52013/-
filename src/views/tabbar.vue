@@ -1,7 +1,5 @@
 <template>
   <div class="box">
-111
-
     <footer>
       <ul>
         <li :class="{active:$store.state.active == index }" v-on:click="tab(item,index)" v-for="(item,index) in list"
